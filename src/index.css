@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 10vh;
+  height: 15vh;
+  /* background-color: red; */
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.card {
+  /* background: red; */
+  width: 15vw;
+  height: 50vh;
+  /* border: 1px solid black; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 15px;
+  margin: 5vh 5vh 10vh;
+}
+
+img {
+  overflow: hidden;
+  object-fit: cover;
+  height: 35vh;
+  width: 15vw;
+  /* border-radius: 15px; */
+}
+
+.description {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  /* background-color: red; */
+}
+
+.game-name {
+  /* position: absolute; */
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* background-color: red; */
+}
+
+.game-type {
+  font-size: small;
+  /* background-color: red; */
+  margin-top: 0px;
+  margin-bottom: 2vh;
+}
+
+button {
+  margin-bottom: 100px;
+  /* all: unset; */
+  background-color: violet;
+  border: none;
+  border-radius: 5px;
+  width: 5vw;
+  padding: 5px;
+  align-self: center;
+  /* margin-top: 0px; */
+}
